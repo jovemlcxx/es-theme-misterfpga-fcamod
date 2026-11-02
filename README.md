@@ -1,4 +1,4 @@
-# es-theme-misterfpga-facamod
+# es-theme-misterfpga-fcamod
 
 **EN** · [BR](README.pt-BR.md)
 
@@ -16,8 +16,8 @@ Port of **MiSTer Menu** (ES-DE, by Anthony Caccese) to **EmulationStation-fcamod
 ## Install
 
 1. Download this repository (**Code → Download ZIP**) or clone it.
-2. Copy the folder to the themes folder of your device: `/roms/themes/` (the `themes` folder of the games partition) or `~/.emulationstation/themes/`. It must be named `es-theme-misterfpga-facamod` (or `es-theme-misterfpga-facamod-main` from the ZIP). When updating, delete the old folder first.
-3. **START → UI Settings → Theme Set → es-theme-misterfpga-facamod**. The options are in **UI Settings → Theme Configuration**.
+2. Copy the folder to the themes folder of your device: `/roms/themes/` (the `themes` folder of the games partition) or `~/.emulationstation/themes/`. It must be named `es-theme-misterfpga-fcamod` (or `es-theme-misterfpga-fcamod-main` from the ZIP). When updating, delete the old folder first.
+3. **START → UI Settings → Theme Set → es-theme-misterfpga-fcamod**. The options are in **UI Settings → Theme Configuration**.
 
 Leave the frontend's **Gamelist View Style** on **automatic**: other values replace the theme's game list layout.
 
@@ -72,7 +72,7 @@ What has actually been tested, and how:
 
 The theme draws text only (no system logos), so every platform works. Known limits of fcamod that a theme cannot change: a game name wider than the list is cut, and collections (all games, favorites, last played) are shown in lower case.
 
-**Help test your system:** tell me your system, its version and what looks wrong, by [opening an issue](https://github.com/jovemlcxx/es-theme-misterfpga-facamod/issues) or [on Reddit](https://www.reddit.com/user/jovemlcxx/) (u/jovemlcxx).
+**Help test your system:** tell me your system, its version and what looks wrong, by [opening an issue](https://github.com/jovemlcxx/es-theme-misterfpga-fcamod/issues) or [on Reddit](https://www.reddit.com/user/jovemlcxx/) (u/jovemlcxx).
 
 ## Customize
 

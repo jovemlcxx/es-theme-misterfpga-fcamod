@@ -1,4 +1,4 @@
-# es-theme-misterfpga-facamod
+# es-theme-misterfpga-fcamod
 
 [EN](README.md) · **BR**
 
@@ -16,8 +16,8 @@ Port do **MiSTer Menu** (ES-DE, de Anthony Caccese) para o **EmulationStation-fc
 ## Instalação
 
 1. Baixe este repositório (**Code → Download ZIP**) ou clone-o.
-2. Copie a pasta para a pasta de temas do aparelho: `/roms/themes/` (a pasta `themes` da partição de jogos) ou `~/.emulationstation/themes/`. Ela deve se chamar `es-theme-misterfpga-facamod` (ou `es-theme-misterfpga-facamod-main`, vinda do ZIP). Ao atualizar, apague a pasta antiga antes.
-3. **START → CONFIGURAR INTERFACE → TEMA → es-theme-misterfpga-facamod**. As opções ficam em **CONFIGURAR INTERFACE → CONFIGURAÇÕES DE TEMA**.
+2. Copie a pasta para a pasta de temas do aparelho: `/roms/themes/` (a pasta `themes` da partição de jogos) ou `~/.emulationstation/themes/`. Ela deve se chamar `es-theme-misterfpga-fcamod` (ou `es-theme-misterfpga-fcamod-main`, vinda do ZIP). Ao atualizar, apague a pasta antiga antes.
+3. **START → CONFIGURAR INTERFACE → TEMA → es-theme-misterfpga-fcamod**. As opções ficam em **CONFIGURAR INTERFACE → CONFIGURAÇÕES DE TEMA**.
 
 Deixe o **MODO DE VISUALIZAÇÃO, LISTA DE JOGO** do frontend em **automático**: outros valores substituem o layout da lista de jogos do tema.
 
@@ -72,7 +72,7 @@ O que foi realmente testado, e como:
 
 O tema desenha só texto (sem logos de sistemas), então toda plataforma funciona. Limites do fcamod que um tema não consegue mudar: nome de jogo mais largo que a lista é cortado, e as coleções (todos os jogos, favoritos, últimos jogados) aparecem em minúsculas.
 
-**Ajude a testar o seu sistema:** me conte qual é o sistema, a versão e o que parece errado, [abrindo uma issue](https://github.com/jovemlcxx/es-theme-misterfpga-facamod/issues) ou [pelo Reddit](https://www.reddit.com/user/jovemlcxx/) (u/jovemlcxx).
+**Ajude a testar o seu sistema:** me conte qual é o sistema, a versão e o que parece errado, [abrindo uma issue](https://github.com/jovemlcxx/es-theme-misterfpga-fcamod/issues) ou [pelo Reddit](https://www.reddit.com/user/jovemlcxx/) (u/jovemlcxx).
 
 ## Personalizar
 
