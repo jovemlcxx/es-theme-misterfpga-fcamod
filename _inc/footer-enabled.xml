@@ -1,0 +1,46 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <!-- Button legend ON (the "footer" subset in theme.xml): menu on the left and the confirm button on the right, aligned to the edges of the central window (x 56 and 584),
+        on the Xbox / XMB footer's band (y 0.895). Built by hand because the native legend does not fit the screen in most languages. -->
+   <view name="system, grid">
+      <image name="e_help_start_icon" extra="true">
+         <path>./_inc/images/buttons/${buttonStyle}/start.svg</path>
+         <pos>0.0875 0.895</pos>
+         <maxSize>0.045 0.06</maxSize>
+         <origin>0 0</origin>
+         <color>FFDFDF</color>
+         <zIndex>90</zIndex>
+      </image>
+      <text name="e_help_start_text" extra="true">
+         <text>${helpMenu}</text>
+         <pos>0.14 0.895</pos>
+         <size>0.20 0.06</size>
+         <fontSize>0.03</fontSize>
+         <color>FFDFDF</color>
+         <fontPath>${fontTitle}</fontPath>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <zIndex>90</zIndex>
+      </text>
+      <image name="e_help_a_icon" extra="true">
+         <path>./_inc/images/buttons/${buttonStyle}/${confirmButton}.svg</path>
+         <pos>0.9125 0.895</pos>
+         <maxSize>0.045 0.06</maxSize>
+         <origin>1 0</origin>
+         <color>FFDFDF</color>
+         <zIndex>90</zIndex>
+      </image>
+      <text name="e_help_a_text" extra="true">
+         <text>${helpSelect}</text>
+         <pos>0.8604 0.895</pos>
+         <size>0.42 0.06</size>
+         <fontSize>0.03</fontSize>
+         <color>FFDFDF</color>
+         <fontPath>${fontTitle}</fontPath>
+         <alignment>right</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <origin>1 0</origin>
+         <zIndex>90</zIndex>
+      </text>
+   </view>
+</theme>

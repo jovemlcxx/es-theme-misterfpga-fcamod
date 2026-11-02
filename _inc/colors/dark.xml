@@ -1,0 +1,16 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables>
+      <!-- Menu System -->
+      <menuBackgroundColor>1E0000EE</menuBackgroundColor>
+      <menuTextColor>FFDFDFAA</menuTextColor>
+      <menuTextSelectedColor>FFDFDF</menuTextSelectedColor>
+      <menuSeparatorColor>FFDFDF1A</menuSeparatorColor>
+      <!-- Help -->
+      <helpTextColor>FFDFDF66</helpTextColor>
+      <helpIconColor>FFDFDF66</helpIconColor>
+      <!-- Menu Text Input -->
+      <menuTextInputImage>./_inc/images/menu-textinput-dark.png</menuTextInputImage>
+      <menuTextInputImageActive>./_inc/images/menu-textinput-dark-active.png</menuTextInputImageActive>
+   </variables>
+</theme>

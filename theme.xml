@@ -1,0 +1,329 @@
+<theme defaultView="basic">
+   <formatVersion>7</formatVersion>
+   <!-- MiSTer menu for EmulationStation-fcamod (R36S and clones, 640x480): a port of "MiSTer Menu" by Anthony Caccese (ES-DE,
+        https://github.com/anthonycaccese/mister-menu-es-de, CC BY-NC-SA) onto the structure of the XMB / PS5 / Xbox themes (wallpapers, background video, 26 languages,
+        ArkOS family, button legend). A pink header, a pink side column with the rotated name of the screen and a dark red list over a wallpaper. -->
+   <variables>
+      <fontTitle>./_inc/fonts/RetroGaming.ttf</fontTitle>
+      <fontList>./_inc/fonts/PressStart2P-vaV7.ttf</fontList>
+      <pink>FFDFDF</pink>
+      <pinkSoft>FFDFDF99</pinkSoft>
+      <dark>1E0000</dark>
+      <panelColor>1E0000EE</panelColor>
+      <barColor>FFDFDFEE</barColor>
+      <labelSystems>Systems</labelSystems>
+      <labelGames>Games</labelGames>
+      <aspectRatioLabel>Aspect Ratio</aspectRatioLabel>
+      <videoLabel>Background Video</videoLabel>
+      <enabledLabel>Enabled</enabledLabel>
+      <disabledLabel>Disabled</disabledLabel>
+      <wallpaperLabel>Wallpaper</wallpaperLabel>
+      <colorSchemeLabel>Color Scheme</colorSchemeLabel>
+      <darkLabel>Dark</darkLabel>
+      <lightLabel>Light</lightLabel>
+      <buttonIconsLabel>Button Icons</buttonIconsLabel>
+      <confirmButtonLabel>Confirm Button (A/B)</confirmButtonLabel>
+      <footerLabel>Button Legend</footerLabel>
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>SELECT</helpSelect>
+      <buttonStyle>nintendo</buttonStyle>
+      <confirmButton>a</confirmButton>
+      <wallpaperPath>./_inc/background/bg_1.png</wallpaperPath>
+      <wallpaperVideoPath>./_inc/background/bg_1.mp4</wallpaperVideoPath>
+      <systemBackgroundTint>999999FF</systemBackgroundTint>
+      <menuBackgroundColor>1E0000EE</menuBackgroundColor>
+      <menuTextColor>FFDFDFAA</menuTextColor>
+      <menuTextSelectedColor>FFDFDF</menuTextSelectedColor>
+      <menuSeparatorColor>FFDFDF1A</menuSeparatorColor>
+      <helpTextColor>FFDFDF66</helpTextColor>
+      <helpIconColor>FFDFDF66</helpIconColor>
+      <menuTextInputImage>./_inc/images/menu-textinput-dark.png</menuTextInputImage>
+      <menuTextInputImageActive>./_inc/images/menu-textinput-dark-active.png</menuTextInputImageActive>
+   </variables>
+   <!-- Translations: one file per language, included only for that language (ES-fcamod stops reading <variables> blocks at the first
+        one whose lang does not match, so they cannot all live in this file). They must come before the subsets, whose names use them. -->
+   <include lang="pt,br">./_inc/lang/br.xml</include>
+   <include lang="es">./_inc/lang/es.xml</include>
+   <include lang="fr">./_inc/lang/fr.xml</include>
+   <include lang="de">./_inc/lang/de.xml</include>
+   <include lang="it">./_inc/lang/it.xml</include>
+   <include lang="ja">./_inc/lang/ja.xml</include>
+   <include lang="ko">./_inc/lang/ko.xml</include>
+   <include lang="ru">./_inc/lang/ru.xml</include>
+   <include lang="zh-cn,zh">./_inc/lang/zh-cn.xml</include>
+   <include lang="zh-tw">./_inc/lang/zh-tw.xml</include>
+   <include lang="tr">./_inc/lang/tr.xml</include>
+   <include lang="nl">./_inc/lang/nl.xml</include>
+   <include lang="sv">./_inc/lang/sv.xml</include>
+   <include lang="pl">./_inc/lang/pl.xml</include>
+   <include lang="ca">./_inc/lang/ca.xml</include>
+   <include lang="da">./_inc/lang/da.xml</include>
+   <include lang="fi">./_inc/lang/fi.xml</include>
+   <include lang="hu">./_inc/lang/hu.xml</include>
+   <include lang="no,nb">./_inc/lang/no.xml</include>
+   <include lang="ro">./_inc/lang/ro.xml</include>
+   <include lang="uk,ua">./_inc/lang/uk.xml</include>
+   <include lang="cs">./_inc/lang/cs.xml</include>
+   <include lang="el">./_inc/lang/el.xml</include>
+   <include lang="vi">./_inc/lang/vi.xml</include>
+   <include lang="pt">./_inc/lang/pt.xml</include>
+   <include lang="id">./_inc/lang/id.xml</include>
+   <subset name="aspect-ratio" displayName="${aspectRatioLabel}">
+      <include name="4-3" displayName="4:3" />
+   </subset>
+
+   <!-- 20 wallpaper slots (the same subset as the XMB / PS5 / Xbox themes): 1 Crisp Mountain Air (skeddles), 2 Test Pattern, 3 Pocky and Rocky are included -->
+   <subset name="wallpaper" displayName="${wallpaperLabel}">
+      <include name="1" displayName="1 (default)">./_inc/wallpapers/1.xml</include>
+      <include name="2" displayName="2">./_inc/wallpapers/2.xml</include>
+      <include name="3" displayName="3">./_inc/wallpapers/3.xml</include>
+      <include name="4" displayName="4">./_inc/wallpapers/4.xml</include>
+      <include name="5" displayName="5">./_inc/wallpapers/5.xml</include>
+      <include name="6" displayName="6">./_inc/wallpapers/6.xml</include>
+      <include name="7" displayName="7">./_inc/wallpapers/7.xml</include>
+      <include name="8" displayName="8">./_inc/wallpapers/8.xml</include>
+      <include name="9" displayName="9">./_inc/wallpapers/9.xml</include>
+      <include name="10" displayName="10">./_inc/wallpapers/10.xml</include>
+      <include name="11" displayName="11">./_inc/wallpapers/11.xml</include>
+      <include name="12" displayName="12">./_inc/wallpapers/12.xml</include>
+      <include name="13" displayName="13">./_inc/wallpapers/13.xml</include>
+      <include name="14" displayName="14">./_inc/wallpapers/14.xml</include>
+      <include name="15" displayName="15">./_inc/wallpapers/15.xml</include>
+      <include name="16" displayName="16">./_inc/wallpapers/16.xml</include>
+      <include name="17" displayName="17">./_inc/wallpapers/17.xml</include>
+      <include name="18" displayName="18">./_inc/wallpapers/18.xml</include>
+      <include name="19" displayName="19">./_inc/wallpapers/19.xml</include>
+      <include name="20" displayName="20">./_inc/wallpapers/20.xml</include>
+   </subset>
+   <subset name="color-scheme" displayName="${colorSchemeLabel}">
+      <include name="dark" displayName="${darkLabel}">./_inc/colors/dark.xml</include>
+      <include name="light" displayName="${lightLabel}">./_inc/colors/light.xml</include>
+   </subset>
+   <!-- Background video on/off. The elements live only in video-enabled.xml (see video-disabled.xml). -->
+   <subset name="background-video" displayName="${videoLabel}">
+      <include name="enabled" displayName="${enabledLabel}">./_inc/video-enabled.xml</include>
+      <include name="disabled" displayName="${disabledLabel}">./_inc/video-disabled.xml</include>
+   </subset>
+
+   <!-- Footer button icons (the XMB theme's): paths are built from two plain variables, ES-fcamod does not resolve a variable inside another.
+        The subsets have this theme's own names: with the shared ones, the choice made in the PS5 / XMB / Xbox themes would also be applied here. -->
+   <subset name="mister-buttons" displayName="${buttonIconsLabel}">
+      <include name="nintendo" displayName="Nintendo / Xbox" />
+      <include name="playstation" displayName="PlayStation">./_inc/buttons/playstation.xml</include>
+   </subset>
+   <subset name="mister-confirm" displayName="${confirmButtonLabel}">
+      <include name="a" displayName="A" />
+      <include name="b" displayName="B">./_inc/buttons/confirm-b.xml</include>
+   </subset>
+   <!-- Button legend at the bottom: ON by default (first entry), the user can turn it off.
+        It must stay AFTER the button-icons / confirm-button subsets: ES resolves ${buttonStyle} / ${confirmButton} while reading this file. -->
+   <subset name="footer" displayName="${footerLabel}">
+      <include name="enabled" displayName="${enabledLabel}">./_inc/footer-enabled.xml</include>
+      <include name="disabled" displayName="${disabledLabel}">./_inc/footer-disabled.xml</include>
+   </subset>
+
+   <!-- navigation sounds (the original's) -->
+   <view name="system, basic, detailed, video, grid, menu">
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+   <!-- clock, top right (the status icons are drawn by ES itself) -->
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <color>${pink}</color>
+      </batteryIndicator>
+      <text name="clock">
+         <fontPath>${fontTitle}</fontPath>
+         <color>${pink}</color>
+         <alignment>right</alignment>
+      </text>
+   </view>
+
+   <!-- native help legend hidden (it does not fit the screen in most languages); the footer is hand-made like the XMB / Xbox themes' -->
+   <view name="system, basic, detailed, video, grid">
+      <helpsystem name="help">
+         <textColor>00000000</textColor>
+         <iconColor>00000000</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="menu">
+      <menuText name="menutitle">
+         <fontPath>${fontTitle}</fontPath>
+         <fontSize>0.03</fontSize>
+         <color>${menuTextSelectedColor}</color>
+      </menuText>
+      <menuText name="menufooter">
+         <fontPath>${fontTitle}</fontPath>
+         <fontSize>0.02</fontSize>
+         <color>${menuTextColor}</color>
+      </menuText>
+      <menuText name="menutext">
+         <fontPath>${fontTitle}</fontPath>
+         <fontSize>0.03</fontSize>
+         <color>${menuTextColor}</color>
+         <separatorColor>${menuSeparatorColor}</separatorColor>
+         <selectedColor>${menuTextSelectedColor}</selectedColor>
+      </menuText>
+      <menuTextSmall name="menutextsmall">
+         <fontPath>${fontTitle}</fontPath>
+         <fontSize>0.02</fontSize>
+         <color>${menuTextColor}</color>
+      </menuTextSmall>
+      <menuBackground name="menubg">
+         <color>${menuBackgroundColor}</color>
+      </menuBackground>
+      <menuTextEdit name="menutextedit">
+         <inactive>${menuTextInputImage}</inactive>
+         <active>${menuTextInputImageActive}</active>
+      </menuTextEdit>
+   </view>
+
+   <!-- the window, on both screens: header and side column (pink); the wallpaper is a low-z extra tinted grey (the original draws it at 60 % opacity, which this ES
+        ignores for images: a grey tint over black is the same) -->
+   <view name="system, basic, detailed, video, grid">
+      <image name="bg_image" extra="true">
+         <path>${wallpaperPath}</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${systemBackgroundTint}</color>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="e_header" extra="true">
+         <path>./_inc/images/white.png</path>
+         <color>${barColor}</color>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_side" extra="true">
+         <path>./_inc/images/white.png</path>
+         <color>${barColor}</color>
+         <zIndex>60</zIndex>
+      </image>
+      <text name="e_title" extra="true">
+         <fontPath>${fontTitle}</fontPath>
+         <color>${dark}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>true</forceUppercase>
+         <zIndex>65</zIndex>
+      </text>
+      <text name="e_side_label" extra="true">
+         <fontPath>${fontTitle}</fontPath>
+         <color>${dark}</color>
+         <alignment>center</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>true</forceUppercase>
+         <origin>0.5 0.5</origin>
+         <rotation>270</rotation>
+         <zIndex>65</zIndex>
+      </text>
+   </view>
+
+   <view name="system">
+      <text name="e_title" extra="true">
+         <text>EmulationStation</text>
+      </text>
+      <text name="e_side_label" extra="true">
+         <text>${labelSystems}</text>
+      </text>
+      <!-- the list of systems: a vertical carousel of names; its box is the list's dark panel (ES draws the static background video AFTER every extra below
+           the carousel, so a panel image would be hidden by the video: the carousel's own background is drawn after it) -->
+      <carousel name="systemcarousel">
+         <type>vertical</type>
+         <logoAlignment>left</logoAlignment>
+         <zIndex>40</zIndex>
+         <color>${panelColor}</color>
+         <logoScale>1</logoScale>
+         <minLogoOpacity>1</minLogoOpacity>
+         <unselectedOpacity>1</unselectedOpacity>
+         <defaultTransition>instant</defaultTransition>
+         <scrollSound>./_inc/sounds/systembrowse.wav</scrollSound>
+      </carousel>
+      <!-- no system logo images: the list shows the names (a missing file makes the carousel draw the text) -->
+      <image name="logo">
+         <path>./_inc/none.png</path>
+      </image>
+      <text name="logoText">
+         <fontPath>${fontList}</fontPath>
+         <color>${pink}</color>
+         <forceUppercase>false</forceUppercase>
+      </text>
+      <!-- the selection bar: opaque, over the carousel's own (pink) item, with the selected system's name in dark red on it -->
+      <image name="e_bar" extra="true">
+         <path>./_inc/images/white.png</path>
+         <color>${pink}</color>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="e_bar_text" extra="true">
+         <text>${system.fullName}</text>
+         <fontPath>${fontList}</fontPath>
+         <color>${dark}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>55</zIndex>
+      </text>
+      <text name="systemInfo">
+         <fontPath>${fontTitle}</fontPath>
+         <color>${dark}</color>
+         <alignment>right</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>65</zIndex>
+      </text>
+   </view>
+
+   <view name="basic, detailed, video, grid">
+      <text name="e_title" extra="true">
+         <text>${system.fullName}</text>
+      </text>
+      <text name="e_side_label" extra="true">
+         <text>${labelGames}</text>
+      </text>
+      <image name="e_panel" extra="true">
+         <path>./_inc/images/white.png</path>
+         <color>${panelColor}</color>
+         <zIndex>5</zIndex>
+      </image>
+      <!-- some forks draw the system logo / name as a header on the game list: keep them off screen -->
+      <image name="logo">
+         <pos>2 2</pos>
+      </image>
+      <text name="logoText">
+         <pos>2 2</pos>
+      </text>
+      <textlist name="gamelist">
+         <fontPath>${fontList}</fontPath>
+         <selectorColor>${pink}</selectorColor>
+         <selectedColor>${dark}</selectedColor>
+         <primaryColor>${pink}</primaryColor>
+         <secondaryColor>${pink}</secondaryColor>
+         <alignment>left</alignment>
+         <lineSpacing>1.575</lineSpacing>
+         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+         <zIndex>10</zIndex>
+      </textlist>
+   </view>
+
+   <include subset="aspect-ratio" name="4-3">./aspect-ratio-4-3.xml</include>
+</theme>

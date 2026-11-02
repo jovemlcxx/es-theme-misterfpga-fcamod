@@ -1,0 +1,20 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="cs">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>VYBRAT</helpSelect>
+      <aspectRatioLabel>Poměr stran</aspectRatioLabel>
+      <wallpaperLabel>Tapeta</wallpaperLabel>
+      <videoLabel>Video na pozadí</videoLabel>
+      <enabledLabel>Povoleno</enabledLabel>
+      <disabledLabel>Zakázáno</disabledLabel>
+      <colorSchemeLabel>Barevné schéma</colorSchemeLabel>
+      <darkLabel>Tmavé</darkLabel>
+      <lightLabel>Světlé</lightLabel>
+      <buttonIconsLabel>Ikony tlačítek</buttonIconsLabel>
+      <confirmButtonLabel>Potvrzovací tlačítko (A/B)</confirmButtonLabel>
+      <footerLabel>Legenda tlačítek</footerLabel>
+      <labelSystems>Systémy</labelSystems>
+      <labelGames>Hry</labelGames>
+   </variables>
+</theme>
